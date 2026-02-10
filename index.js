@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const EMAIL = "abhiney0178.be23@chitkara.edu.in";
+const EMAIL = "tushar0907.be23@chitkara.edu.in";
 
 /* GET /health */
 app.get("/health", (req, res) => {
